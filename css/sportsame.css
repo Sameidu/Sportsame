@@ -1,0 +1,540 @@
+/*-------- Start Banner Area ------------*/
+/*DPR Fondo Sportsame background: url(../img/hero-bg.jpg) center; */
+.banner-area-2 {
+	background: url(../img/pista-bg.jpg) center;
+	background-size: cover;
+  }
+
+  /*DPR añadido margin-top: 100px; y margin-bottom: 20px;*/
+.banner-left h6 {
+   	margin-top: 10px;
+	margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+.text-white {
+    font-size: 16px;
+  }
+
+  /*DPR Cambiado margin-top: 120px; */
+@media (max-width: 767px) {
+    .banner-left {
+      margin-top: 10px;
+      margin-bottom: 60px;
+    }
+  }
+
+
+/* Inicio Thumbnails de deportes */
+@media (max-width:2500px){
+	.thumbnails-c{
+		margin-bottom: 10px;
+        text-align: center;
+		width:20%;
+		float:left;
+	}
+    .imgthumb{
+        width:120px;
+        height:120px;
+    }
+	
+}
+
+
+@media (max-width:900px){
+	.thumbnails-c{
+		
+		width:25%;
+		float:left;
+	}
+	
+}
+
+@media (max-width:655px){
+	.thumbnails-c{
+		
+		width:33%;
+		float:left;
+	}
+}
+	
+@media (max-width:510px){
+    .thumbnails-c{
+        
+        width:50%;
+        float:left;
+    }	
+    .imgthumb{
+        width:120px;
+        height:120px;
+    }
+	
+}
+.thumbnails {
+    overflow: hidden;
+    height: 120px;
+    width: 120px;   
+    margin: 0 auto;
+}
+
+.thumbnails:hover img {
+    transform: scale(1.08) rotate(3deg);
+}
+
+.thumbnails img {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.titulo-thumb {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: black;
+}
+
+.fecha-thumb {
+    font-size: 11px;
+    margin-top: -5px;
+    color: black;
+
+}
+/* Fin Thumbnails de deportes */
+
+.centrar {
+    text-align: center;
+}
+
+/* DPR Color de los vínculos activos de menú Nav Meu Styling */
+.nav-menu li:hover > a {
+    color: #f36917;
+  }
+
+  /* Tamaño de letra del menú */
+.nav-menu li > a{
+  font-size: medium;
+}
+
+.menu-has-children ul li > a{
+  font-size: medium;
+}
+
+/* DPR Color de los vínculos a recursos de la red */
+.naranja-v div ul li a:hover {
+    color: #f36917 !important;
+  }
+
+/* DPR Color de los enlaces a redes sociales */  
+.footer-social a:hover i {
+    color: #f36917;
+  }
+
+/* DPR Color de los vínculos a Walkredi y Colorlib*/
+.footer-text a{
+    color: #f36917 !important;
+ }
+ .footer-text a:hover{
+    color: #f36917 !important;
+ }
+
+.verde{
+    color: #42b23c;
+}
+
+.verde-10{
+    background-color: rgba(66,178,60,0.10);
+}
+
+.fondo-blanco{
+background-color: white;
+}
+/* DPR Fondo menú negro al 90% */
+.main-menu-oscuro {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* DPR Listas personalizadas */ 
+  .unordered-list-verde li {
+    position: relative;
+    padding-left: 30px;
+    line-height: 1.82em !important;
+  }
+  
+  .unordered-list-verde li:before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border: 3px solid #42b23c;
+    background: #fff;
+    top: 4px;
+    left: 0;
+    border-radius: 50%;
+  }
+
+
+  /*Paginas de deportes*/
+
+.foto-texto-izquierda {
+  margin-right: 10px;
+  clear: both;
+  float: right;
+  margin-left: 10px;
+}
+
+.contenedor-deportes{
+  width: 100%; 
+  margin:0 auto;
+}
+
+.margen{
+  margin-right: 15px;
+}
+
+@media (max-width:655px){
+  .contenedor-deportes{
+    width: 100%; 
+  }
+  .columnas{
+    flex-direction: column;
+  }
+  .margen{
+    margin-right: 0px;
+  }
+}
+
+
+/* Estilos Ligasame */
+
+.banner-area-2 {
+  background: url(../img-ligasame/ligasame-bg-730px.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.logo-ligasame{
+  width:290px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.banner-center{
+  text-align: center;
+  margin-top: 85px;
+}
+
+
+
+@media (max-width:510px){
+  .logo-ligasame{
+    width:150px;
+  }
+  .banner-center{
+    margin-top: 85px;
+  }
+
+}
+
+
+
+/*Color de los vínculos de menú*/
+.nav-menu ul li:hover > a {
+  color: #87372c;
+}
+
+/*Color Marron ligasame en RGB */
+.marron{
+  color:rgb(135, 55, 44)
+}
+
+/*Color Marron ligasame en RGB al 10% */
+.marron-10{
+  background-color: rgba(135,55,44,0.10);
+}
+
+.main-menu-2 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background: rgba(135, 55, 44, 0.8);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#header.header-scrolled-2 {
+  transition: all 0.5s;
+  background-color: rgba(135, 55, 44, 0.9);
+}
+
+
+
+/*Estilos pestañas ligasame*/
+
+.resp-tabs-list li {
+  margin: 0 20px 0 0;
+  cursor: pointer;
+  width: calc(16.6% - 17px);
+  border: 1px solid #87372c !important;
+  color: #87372c;
+  font-size: small;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+.resp-tabs-list li:last-child {
+  margin-right: 0;
+  
+}
+
+.resp-tab-active {
+  border-bottom: none;
+  background-color: #87372c !important;
+  color:#fff !important;
+  padding: 5px !important;
+}
+
+/*Estilos Tablas Ligasame*/
+
+table tr td{
+  border-top: 1px solid #87372c !important;
+  
+}
+
+.cabecera-palmares{
+  font-style: italic;
+  text-align: center;
+  color: #000;
+}
+
+.naranja-bg{
+  background-color: #fcd5b3 ;
+  color: #87372c;
+  font-weight: bold !important;
+}
+
+.cursiva{
+  font-style: italic !important;
+}
+
+.txt-negro-centrado{
+  text-align: center;
+  font-weight: normal;
+  color: #000;
+}
+
+.txt-izda-bold{
+  text-align: left;
+  font-weight: bold;
+  color: #000;
+}
+
+.txt-dcha-bold{
+  text-align: right;
+  font-weight: bold;
+  color: #000;
+}
+.txt-celda-marron-bold{
+  text-align: center;
+  color: #87372c;
+  font-weight: bold !important;
+}
+
+.tamanotabla-40{
+  width:400px !important;
+}
+.tamanotabla-20{
+  width:20% !important;
+}
+
+/* Centrado de tablas ligasame */
+@media (min-width:1344px){
+  .centrar-tabla-ligasame{
+    width:850px;
+    margin:0 auto;
+   
+  }
+}
+
+@media (max-width:767px){
+ 
+  .tamanotabla-40{
+    width:auto;
+  }
+  .tamanotabla-20{
+    width:auto;
+  }
+}
+
+/* Tamaño texto Equipos y contacto */
+@media (max-width:510px){
+  .txt-tabla-peq{
+    font-size:small;
+  }
+  #container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* Color Flecha de las pestañas que pasan a acordeon en ligasame*/
+
+.resp-arrow {
+  width: 0;
+  height: 0;
+  float: right;
+  margin-top: 3px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 12px solid #87372c;
+  }
+
+h2.resp-tab-active span.resp-arrow {
+border: none;
+border-left: 6px solid transparent;
+border-right: 6px solid transparent;
+border-bottom: 12px solid #ce822e !important;
+}
+
+/* Color pestaña activa acordeón */
+h2.resp-tab-active {
+  background: #87372c !important;
+  }
+
+
+
+
+/* Menú páginas ligasame */
+
+.main-menu-marron {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Página de Reglamento de ligasame */
+
+.reglamento h3{
+  color:#87372c;
+  padding-bottom: 15px;
+}
+.reglamento p{
+  color: #000;
+}
+
+/*Listas personalizadas marron*/ 
+.unordered-list-marron li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: -5px;
+  line-height: 1.82em !important;
+  color: #000;
+}
+.unordered-list-marron li:last-child {
+padding-bottom: 15px;
+}
+.unordered-list-marron li:before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 3px solid #87372c;
+  background: #fff;
+  top: 4px;
+  left: 0;
+  border-radius: 50%;
+}
+
+/* Estilos Basketsame */
+
+.azul{
+  color:rgb(1, 0, 128)
+}
+
+.main-menu-3 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background: rgba(1, 0, 128, 0.8);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#header.header-scrolled-3 {
+  transition: all 0.5s;
+  background-color: rgba(1, 0, 128, 0.9);
+}
+
+.banner-area-3 {
+  background: url(../img-basketsame/basketsame-bg-730px.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.logo-basketsame{
+  width:290px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.banner-center-basketsame{
+  text-align: center;
+  margin-top: 85px;
+}
+
+@media (max-width: 767px) {
+  .banner-area-3 .fullscreen {
+    height: 100% !important;
+  }
+  .logo-basketsame{
+    width:190px;
+  }
+  .banner-center-basketsame{
+    margin-top: 85px;
+  }
+
+}
+
+@media (max-width:510px){
+  .logo-basketsame{
+    width:150px;
+  }
+  .banner-center-basketsame{
+    margin-top: 85px;
+  }
+
+}
+
+
+/*Estilos Tablas Basketsame*/
+
+.tabla-basketsame tr td{
+  border-top: 1px solid #ff6600 !important;
+  
+}
+
+.txt-celda-naranja-bold{
+  text-align: center;
+  color: #ff6600;
+  font-weight: bold !important;
+}
+
+.naranja-bg-basketsame{
+  background-color: #fcd5b3 ;
+  color: #ff6600;
+  font-weight: bold !important;
+}
+
+.txt-centro-bold{
+  color: #000;
+  text-align: center;
+  font-weight: bold !important;
+}
